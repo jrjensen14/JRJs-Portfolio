@@ -1,4 +1,4 @@
-# JRJs-Portfoli
+# JRJs-Portfolio
 
 ## Purpose
 A website that shows off all my hard work
