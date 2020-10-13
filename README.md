@@ -1,7 +1,7 @@
 # JRJs-Portfolio
 
 ## Purpose
-A website that shows off all my hard work
+A website that shows off my working progress.
 
 ## Built With
 * HTML
