@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    background-color: slategray;
+}
+img {
+    height: 10%;
+    width: 10%;
+    border: 5px, solid, black;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+header h1 {
+    justify-content: flex-start;
+    /* float: left; */
+    font-weight: bold;
+    /* font-size: 40px; */
+    /* margin: 0; */
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 30px 5px 0 5px;
+    justify-content: flex-end;
+  
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: flex-end;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover {
+    background: #d1d6dc;
+    color: black;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+/* Hero Style Starts */
+
+#hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../images/nash_night_skyline1.jpeg");
+    opacity: .85;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+    
+/* Body Stlyling Starts*/
+.aboutme {
+    background-color:  #d1d6dc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+}
+
+.aboutme .intro {
+    width: 145px;
+}
+.works .intro {
+    width: 145px;
+}
+.contactme .intro {
+    width: 90px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 120px; */
+}
+.bio {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    line-height: 1.2;
+}
+.intro h2 {
+    font-size: 40px;
+}
+
+/* Grid Styling */
+
+.works {
+    background-color: #d1d6dc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+}
+.work-grid-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+.work-grid-container {
+    max-width: 980;
+    margin: 0 auto;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 5px;
+    font-size: 18px;
+}
+    
+.work-grid-item {
+    border: black solid 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+}
+.work-grid-item.surf {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+}
+
+.work-grid-item.run {
+    background-image: url("../images/Run\ Buddy\ .png");
+    height: auto;
+    width: auto;
+    background-size: cover;
+    /* text-decoration: none; */
+}
+.work-grid-item.run a {
+    text-decoration: none;
+}
+.work-grid-item {
+    background-color: black;
+    color: #d1d6dc;
+    text-decoration: none;
+}
+.surf:hover {
+    opacity: 0.5;
+}
+.pastel:hover {
+    opacity: 0.5;
+}
+.run:hover {
+    opacity: 0.5;
+}
+.led:hover {
+    opacity: 0.5;
+}
+.calculator:hover {
+    opacity: 0.5;
+}
+
+/* Footer Style Starts*/ 
+
+.section-title {
+    border-right: black 3px solid;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 20px 0px 20px;
+}
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer h2 {
+    font-size: 40px;
+    text-align: right;
+    margin: 0;
+}
+.footer nav ul li {
+    text-decoration: none;  
+}
+footer nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+footer nav ul li a:hover {
+    background: #d1d6dc;
+    color: black;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .footer {
+        
+    }
+    .section-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: black 3px solid;
+        border-right: #d1d6dc;
+        padding: 5px;
+    }
+    .footer nav ul {
+        font-size: 1.5vw;
+    }
+    .work-grid-container {
+        padding-top: 10px;
+    }
+    
+}
