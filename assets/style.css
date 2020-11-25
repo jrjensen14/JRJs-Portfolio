@@ -68,7 +68,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url("../images/nash_night_skyline1.jpeg");
+    background-image: url("../assets/images/nash_night_skyline1.jpeg");
     opacity: .85;
     height: 250px;
     width: 100%;
@@ -157,7 +157,7 @@ header nav ul li a:hover {
 }
 
 .work-grid-item.run {
-    background-image: url("../images/Run\ Buddy\ .png");
+    background-image: url("../assets/images/Run\ Buddy\ .png");
     height: auto;
     width: auto;
     background-size: cover;
@@ -241,7 +241,7 @@ footer nav ul li a:hover {
 
 @media screen and (max-width: 575px) {
     .footer {
-        
+
     }
     .section-title {
         display: flex;
