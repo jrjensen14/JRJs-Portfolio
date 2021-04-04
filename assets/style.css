@@ -199,6 +199,15 @@ nav a {
     background-size: cover;
     opacity: .8;
 }
+.work-grid-item.critter-tail{
+    grid-row: auto;
+    grid-column: auto;
+    background-image: url("../assets/images/critter_tails.png");
+    height: auto;
+    width: auto;
+    background-size: cover;
+    opacity: .8;
+}
 .work-grid-item.coding-cocktails a {
     text-decoration: none;
     color: black;
@@ -211,6 +220,10 @@ nav a {
     text-decoration: none;
     color: black;
 }
+.work-grid-item.critter-tail a {
+    text-decoration: none;
+    color: black;
+}
 .coding-cocktails:hover {
     opacity: 0.5;
 }
@@ -218,6 +231,9 @@ nav a {
     opacity: 0.5;
 }
 .spl-goalden:hover {
+    opacity: 0.5;
+}
+.critter-tail:hover {
     opacity: 0.5;
 }
 /* .led:hover {
@@ -280,9 +296,9 @@ footer nav ul li a:hover {
 
 
 @media screen and (max-width: 575px) {
-    .footer {
+    /* .footer {
 
-    }
+    } */
     .section-title {
         display: flex;
         flex-wrap: wrap;
